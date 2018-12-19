@@ -280,7 +280,7 @@ public class Panel extends View {
         super.onRestoreInstanceState(state);
     }
 
-    private void start(){
+    public void start(){
         mWhiteArray.clear();
         mBlackArray.clear();
         mIsGameOver = false;
